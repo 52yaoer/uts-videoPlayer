@@ -1,3 +1,3 @@
 install:
-  - FILE="-Dfile=VideoPlayer-1.0.aar"
-  - mvn install:install-file $FILE -DgroupId=com.yc.video -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=VideoPlayer-1.1.aar"
+  - mvn install:install-file $FILE -DgroupId=com.yc.video -DartifactId=test -Dversion=1.1 -Dpackaging=aar -DgeneratePom=true
